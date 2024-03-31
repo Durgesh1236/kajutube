@@ -344,7 +344,7 @@ a {
 @media screen and (max-width: 600px) {
     div.left-container {
     top: 92.5%;
-    height: 73px;
+    height: 80px;
     width: 100%;
     display: flex;
     position: fixed;
