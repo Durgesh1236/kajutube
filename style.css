@@ -343,8 +343,9 @@ a {
 
 @media screen and (max-width: 600px) {
     div.left-container {
-    top: 92%;
-    height: 80px;
+     position: absolute;
+    top: 89.9%;
+    height: 95px;
     width: 100%;
     display: flex;
     position: fixed;
@@ -362,7 +363,7 @@ a {
     
     .home-container i {
         color: white;
-        font-size: 15px;
+        font-size: 25px;
     }
 
     .home-container {
