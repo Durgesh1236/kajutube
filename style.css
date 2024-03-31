@@ -343,13 +343,12 @@ a {
 
 @media screen and (max-width: 600px) {
     div.left-container {
-    top: 855px;
-    left: 0px;
-    height: 95px;
+    top: 91.5%;
+    height: 80px;
     width: 100%;
     display: flex;
     position: fixed;
-    z-index: 3;
+    z-index: 8;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border: 1px solid white;
