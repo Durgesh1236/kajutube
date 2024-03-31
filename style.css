@@ -36,7 +36,7 @@
     top: 120px;
     left: 5rem;
     width: 94.5%;
-    overflow: hidden;
+    /* overflow: hidden; */
     z-index: 2;
 }
 
@@ -344,12 +344,12 @@ a {
 @media screen and (max-width: 600px) {
     div.left-container {
     top: 855px;
-    bottom: 0px;
+    left: 0px;
     height: 95px;
     width: 100%;
     display: flex;
-    /* position: fixed; */
-    z-index: 8;
+    position: fixed;
+    z-index: 3;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border: 1px solid white;
