@@ -329,7 +329,7 @@ a {
 
     .music-container{
         left: 0;
-         top: 60px;
+         top: 50px;
     }
     .top-container input{
         margin-left: 0px;
@@ -337,15 +337,14 @@ a {
     }
 
     .top-container img{
-    width: 150px;
+    width: 50px;
     }
 }
 
 @media screen and (max-width: 600px) {
     div.left-container {
-    /* top: 91.5%; */
-    bottom: 0;
-    height: 80px;
+    top: 92.5%;
+    height: 73px;
     width: 100%;
     display: flex;
     position: fixed;
@@ -363,15 +362,15 @@ a {
     
     .home-container i {
         color: white;
-        font-size: 23px;
+        font-size: 15px;
     }
 
     .home-container {
         margin-left: 30px;
-        /* overflow: hidden; */
     }
     .home-container:hover {
         background-color: black;
+        border-radius: 5px;
     }
 
   }
