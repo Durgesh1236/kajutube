@@ -329,7 +329,7 @@ a {
 
     .music-container{
         left: 0;
-         top: 50px;
+         top: 60px;
     }
     .top-container input{
         margin-left: 0px;
@@ -343,8 +343,8 @@ a {
 
 @media screen and (max-width: 600px) {
     div.left-container {
-    top: 92.5%;
-    height: 73px;
+    top: 92%;
+    height: 80px;
     width: 100%;
     display: flex;
     position: fixed;
