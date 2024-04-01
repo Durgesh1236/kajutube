@@ -1,0 +1,20 @@
+body{
+    background-color: #000000;
+}
+.shortvideo-container{
+    position: absolute;
+    top: 90px;
+    left: 5rem;
+    width: 94.5%;
+    overflow: hidden;
+    z-index: 2;
+    text-align: center;
+}
+
+.short-video{
+    text-align: center;
+}
+.short-video video{
+    /* border: 1px solid white; */
+    border-radius: 10px;
+}
