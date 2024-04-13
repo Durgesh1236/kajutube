@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Player</title>
+<style>
+  /* Styles for video container */
+  .video-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  /* Styles for video player */
+  video {
+    width: 100%;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+
+<div class="video-container">
+  <video id="myVideo" controls>
+    <source src="shortvideo/Mubarak Ho Tumko Ye Shaadi Tumhari - Haan Maine Bhi Pyaar Kiya-(Hd9video).mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <br>
+  <button onclick="playPause()">Play/Pause</button>
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+</div>
+
+<script>
+  var video = document.getElementById("myVideo");
+
+  function playPause() {
+    if (video.paused)
+      video.play();
+    else
+      video.pause();
+  }
+
+  function makeBig() {
+    video.width = 560;
+  }
+
+  function makeSmall() {
+    video.width = 30;
+  }
+
+  function makeNormal() {
+    video.width = 200;
+  }
+</script>
+
+</body>
+</html>

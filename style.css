@@ -3,11 +3,13 @@
     padding: 0px;
 }
 
+body{
+    background-color: #000000;
+}
 .main {
     display: flex;
     overflow: hidden;
     overflow: scroll;
-    background-color: #000000;
 }
 
 .top-container {
@@ -34,8 +36,8 @@
     position: absolute;
     background-color: #000000;
     top: 120px;
-    left: 5rem;
-    width: 94.5%;
+    left: 4rem;
+    width: 95%;
     overflow: hidden;
     z-index: 2;
 }
@@ -46,7 +48,7 @@
     position: absolute;
     top: 60px;
     left: 5rem;
-    width: 94.5%;
+    width: 95%;
     height: 60px;
     overflow: hidden;
     position: fixed;
@@ -238,8 +240,9 @@ a {
     height: 380px;
     background-color: #000000;
     border-radius: 10px;
-    margin-right: 10px;
+    margin-right: 30px;
     cursor: pointer;
+    margin-left: 30px;
 }
 
 .video-container img {
@@ -249,7 +252,8 @@ a {
 
 .container1 {
     display: flex;
-    margin: 10px;
+    margin: 20px;
+    margin-bottom: 80px;
 }
 
 .video-text-container {
@@ -320,11 +324,21 @@ a {
         height: auto;
     }
 
-    .home-icon{
+    .home-icon,
+    .video-create-icon
+    {
         display: none;
     }
     .serach-text-container{
         display: none;
+    }
+
+    .serach-bar{
+        margin-left: 50px;
+    }
+
+    .all-icon{
+        margin-left: 5px;
     }
 
     .music-container{
@@ -332,19 +346,19 @@ a {
          top: 60px;
     }
     .top-container input{
-        margin-left: 0px;
+        margin-left: 20px;
         width: 100px;
     }
 
     .top-container img{
-    width: 50px;
+    width: 100px;
     }
 }
 
 @media screen and (max-width: 600px) {
     div.left-container {
      position: absolute;
-    top: 89.9%;
+    top: 89.5%;
     height: 95px;
     width: 100%;
     display: flex;
@@ -372,6 +386,10 @@ a {
     .home-container:hover {
         background-color: black;
         border-radius: 5px;
+    }
+
+    .container1 {
+        margin-bottom: 150px;
     }
 
   }
