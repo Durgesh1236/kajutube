@@ -388,8 +388,11 @@ a {
         border-radius: 5px;
     }
 
-    .container1 {
+    /* .container1 {
         margin-bottom: 150px;
+    } */
+    .video-container{
+        margin-top: 50px;
     }
 
   }
